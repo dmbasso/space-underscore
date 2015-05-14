@@ -1,4 +1,4 @@
 # keymap
 
-'atom-workspace':
+'atom-text-editor':
   'shift-space': 'space-underscore:insert'
