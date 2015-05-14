@@ -8,11 +8,11 @@ module.exports = SpaceUnderscore =
     @subscriptions = new CompositeDisposable
 
     # Register command that toggles this view
-    @subscriptions.add atom.commands.add 'atom-workspace', 'space-underscore:insert': => @insert()
+    @subscriptions.add atom.commands.add 'atom-text-editor', 'space-underscore:insert': => @insert()
 
   deactivate: ->
     @subscriptions.dispose()
 
   insert: ->
-    editor = atom.workspace.activePaneItem
+    editor = atom.workspace.getActiveTextEditor()
     editor.insertText('_')
