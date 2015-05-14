@@ -15,4 +15,4 @@ module.exports = SpaceUnderscore =
 
   insert: ->
     editor = atom.workspace.getActiveTextEditor()
-    editor.insertText('_')
+    editor?.insertText('_')
