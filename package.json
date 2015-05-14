@@ -1,7 +1,7 @@
 {
   "name": "space-underscore",
   "main": "./lib/space-underscore",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Inserts a underscore with shift+space",
   "activationCommands": {
     "atom-workspace": "space-underscore:insert"
