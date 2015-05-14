@@ -1,0 +1,16 @@
+{
+  "name": "space-underscore",
+  "main": "./lib/space-underscore",
+  "version": "0.0.0",
+  "description": "Inserts a underscore with shift+space",
+  "activationCommands": {
+    "atom-workspace": "space-underscore:insert"
+  },
+  "repository": "https://github.com/dmbasso/space-underscore",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
